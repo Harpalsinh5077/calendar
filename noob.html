@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar</title>
+  </head>
+  <body>
+    <div class="container">
+      <label for="Year">Year : </label>
+      <select name="Year" id="year">
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+      </select>
+
+      <label for="month">month : </label>
+      <select name="month" id="month">
+        <option value="jan">jan</option>
+        <option value="feb">feb</option>
+        <option value="march">march</option>
+        <option value="april">april</option>
+        <option value="may">may</option>
+        <option value="june">june</option>
+        <option value="july">july</option>
+        <option value="aug">aug</option>
+        <option value="sep">sep</option>
+        <option value="oct">oct</option>
+        <option value="nov">nov</option>
+        <option value="dec">dec</option>
+      </select>
+      <p id="p1"></p>
+      <button type="submit" onclick="chk()">Submit</button>
+      <button type="submit" onclick="print()">Get Date</button>
+      <p id="p2"></p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
